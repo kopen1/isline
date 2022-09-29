@@ -1,0 +1,496 @@
+[{
+  "no": 1,
+  "latine": "Ar Rahman",
+  "arab": "الرحمن",
+  "arti": "Yang Maha Pengasih"
+}, {
+  "no": 2,
+  "latine": "Ar Rahiim",
+  "arab": "الرحيم",
+  "arti": "Yang Maha Penyayang"
+}, {
+  "no": 3,
+  "latine": "Al Malik",
+  "arab": "الملك",
+  "arti": "Yang Maha Merajai / Memerintah"
+}, {
+  "no": 4,
+  "latine": "Al Quddus",
+  "arab": "القدوس",
+  "arti": "Yang Maha Suci"
+}, {
+  "no": 5,
+  "latine": "As Salaam",
+  "arab": "السلام",
+  "arti": "Yang Maha Memberi Kesejahteraan"
+}, {
+  "no": 6,
+  "latine": "Al Mu 'min",
+  "arab": "المؤمن",
+  "arti": "Yang Maha Memberi Keamanan"
+}, {
+  "no": 7,
+  "latine": "Al Muhaimin",
+  "arab": "المهيمن",
+  "arti": "Yang Maha Pemelihara"
+}, {
+  "no": 8,
+  "latine": "Al 'Aziiz",
+  "arab": "العزيز",
+  "arti": "Yang Maha Perkasa"
+}, {
+  "no": 9,
+  "latine": "Al Jabbar",
+  "arab": "الجبار",
+  "arti": "Yang Memiliki Mutlak Kegagahan"
+}, {
+  "no": 10,
+  "latine": "Al Mutakabbir",
+  "arab": "المتكبر",
+  "arti": "Yang Maha Megah, Yang Memiliki Kebesaran"
+}, {
+  "no": 11,
+  "latine": "Al Khaliq",
+  "arab": "الخالق",
+  "arti": "Yang Maha Pencipta"
+}, {
+  "no": 12,
+  "latine": "Al Baari '",
+  "arab": "البارئ",
+  "arti": "Yang Maha Melepaskan(Membuat, Membentuk, Menyeimbangkan)"
+}, {
+  "no": 13,
+  "latine": "Al Mushawwir",
+  "arab": "المصور",
+  "arti": "Yang Maha Membentuk Rupa(makhluknya)"
+}, {
+  "no": 14,
+  "latine": "Al Ghaffaar",
+  "arab": "الغفار",
+  "arti": "Yang Maha Pengampun"
+}, {
+  "no": 15,
+  "latine": "Al Qahhaar",
+  "arab": "القهار",
+  "arti": "Yang Maha Memaksa"
+}, {
+  "no": 16,
+  "latine": "Al Wahhaab",
+  "arab": "الوهاب",
+  "arti": "Yang Maha Pemberi Karunia"
+}, {
+  "no": 17,
+  "latine": "Ar Razzaaq",
+  "arab": "الرزاق",
+  "arti": "Yang Maha Pemberi Rezeki"
+}, {
+  "no": 18,
+  "latine": "Al Fattaah",
+  "arab": "الفتاح",
+  "arti": "Yang Maha Pembuka Rahmat"
+}, {
+  "no": 19,
+  "latine": "Al 'Aliim",
+  "arab": "العليم",
+  "arti": "Yang Maha Mengetahui(Memiliki Ilmu)"
+}, {
+  "no": 20,
+  "latine": "Al Qaablatineh",
+  "arab": "القابض",
+  "arti": "Yang Maha Menyempitkan(makhluknya)"
+}, {
+  "no": 21,
+  "latine": "Al Baasith",
+  "arab": "الباسط",
+  "arti": "Yang Maha Melapangkan(makhluknya)"
+}, {
+  "no": 22,
+  "latine": "Al Khaaflatineh",
+  "arab": "الخافض",
+  "arti": "Yang Maha Merendahkan(makhluknya)"
+}, {
+  "no": 23,
+  "latine": "Ar Raafi '",
+  "arab": "الرافع",
+  "arti": "Yang Maha Meninggikan(makhluknya)"
+}, {
+  "no": 24,
+  "latine": "Al Mu'izz",
+  "arab": "المعز",
+  "arti": "Yang Maha Memuliakan(makhluknya)"
+}, {
+  "no": 25,
+  "latine": "Al Mudzil",
+  "arab": "المذل",
+  "arti": "Yang Maha Menghinakan(makhluknya)"
+}, {
+  "no": 26,
+  "latine": "Al Samii '",
+  "arab": "السميع",
+  "arti": "Yang Maha Mendengar"
+}, {
+  "no": 27,
+  "latine": "Al Bashiir",
+  "arab": "البصير",
+  "arti": "Yang Maha Melihat"
+}, {
+  "no": 28,
+  "latine": "Al Hakam",
+  "arab": "الحكم",
+  "arti": "Yang Maha Menetapkan"
+}, {
+  "no": 29,
+  "latine": "Al 'Adl",
+  "arab": "العدل",
+  "arti": "Yang Maha Adil"
+}, {
+  "no": 30,
+  "latine": "Al Lathiif",
+  "arab": "اللطيف",
+  "arti": "Yang Maha Lembut"
+}, {
+  "no": 31,
+  "latine": "Al Khabiir",
+  "arab": "الخبير",
+  "arti": "Yang Maha Mengenal"
+}, {
+  "no": 32,
+  "latine": "Al Haliim",
+  "arab": "الحليم",
+  "arti": "Yang Maha Penyantun"
+}, {
+  "no": 33,
+  "latine": "Al 'Azhiim",
+  "arab": "العظيم",
+  "arti": "Yang Maha Agung"
+}, {
+  "no": 34,
+  "latine": "Al Ghafuur",
+  "arab": "الغفور",
+  "arti": "Yang Maha Pengampun"
+}, {
+  "no": 35,
+  "latine": "As Syakuur",
+  "arab": "الشكور",
+  "arti": "Yang Maha Pembalas Budi(Menghargai)"
+}, {
+  "no": 36,
+  "latine": "Al 'Aliy",
+  "arab": "العلى",
+  "arti": "Yang Maha Tinggi"
+}, {
+  "no": 37,
+  "latine": "Al Kabiir",
+  "arab": "الكبير",
+  "arti": "Yang Maha Besar"
+}, {
+  "no": 38,
+  "latine": "Al Hafizh",
+  "arab": "الحفيظ",
+  "arti": "Yang Maha Memelihara"
+}, {
+  "no": 39,
+  "latine": "Al Muqiit",
+  "arab": "المقيت",
+  "arti": "Yang Maha Pemberi Kecukupan"
+}, {
+  "no": 40,
+  "latine": "Al Hasiib",
+  "arab": "الحسيب",
+  "arti": "Yang Maha Membuat Perhitungan"
+}, {
+  "no": 41,
+  "latine": "Al Jaliil",
+  "arab": "الجليل",
+  "arti": "Yang Maha Mulia"
+}, {
+  "no": 42,
+  "latine": "Al Kariim",
+  "arab": "الكريم",
+  "arti": "Yang Maha Mulia"
+}, {
+  "no": 43,
+  "latine": "Ar Raqiib",
+  "arab": "الرقيب",
+  "arti": "Yang Maha Mengawasi"
+}, {
+  "no": 44,
+  "latine": "Al Mujiib",
+  "arab": "المجيب",
+  "arti": "Yang Maha Mengabulkan"
+}, {
+  "no": 45,
+  "latine": "Al Waasi '",
+  "arab": "الواسع",
+  "arti": "Yang Maha Luas"
+}, {
+  "no": 46,
+  "latine": "Al Hakiim",
+  "arab": "الحكيم",
+  "arti": "Yang Maha Maka Bijaksana"
+}, {
+  "no": 47,
+  "latine": "Al Waduud",
+  "arab": "الودود",
+  "arti": "Yang Maha Mengasihi"
+}, {
+  "no": 48,
+  "latine": "Al Majilatine",
+  "arab": "المجيد",
+  "arti": "Yang Maha Mulia"
+}, {
+  "no": 49,
+  "latine": "Al Baa'its",
+  "arab": "الباعث",
+  "arti": "Yang Maha Membangkitkan"
+}, {
+  "no": 50,
+  "latine": "As Syahilatine",
+  "arab": "الشهيد",
+  "arti": "Yang Maha Menyaksikan"
+}, {
+  "no": 51,
+  "latine": "Al Haqq",
+  "arab": "الحق",
+  "arti": "Yang Maha Benar"
+}, {
+  "no": 52,
+  "latine": "Al Wakiil",
+  "arab": "الوكيل",
+  "arti": "Yang Maha Memelihara"
+}, {
+  "no": 53,
+  "latine": "Al Qawiyyu",
+  "arab": "القوى",
+  "arti": "Yang Maha Kuat"
+}, {
+  "no": 54,
+  "latine": "Al Matiin",
+  "arab": "المتين",
+  "arti": "Yang Maha Kokoh"
+}, {
+  "no": 55,
+  "latine": "Al Waliyy",
+  "arab": "الولى",
+  "arti": "Yang Maha Melindungi"
+}, {
+  "no": 56,
+  "latine": "Al Hamilatine",
+  "arab": "الحميد",
+  "arti": "Yang Maha Terpuji"
+}, {
+  "no": 57,
+  "latine": "Al Muhshii",
+  "arab": "المحصى",
+  "arti": "Yang Maha Mengalkulasi(Menghitung Segala Sesuatu)"
+}, {
+  "no": 58,
+  "latine": "Al Mubdi '",
+  "arab": "المبدئ",
+  "arti": "Yang Maha Memulai"
+}, {
+  "no": 59,
+  "latine": "Al Mu'ilatine",
+  "arab": "المعيد",
+  "arti": "Yang Maha Mengembalikan Kehlatineupan"
+}, {
+  "no": 60,
+  "latine": "Al Muhyii",
+  "arab": "المحيى",
+  "arti": "Yang Maha Menghlatineupkan"
+}, {
+  "no": 61,
+  "latine": "Al Mumiitu",
+  "arab": "المميت",
+  "arti": "Yang Maha Mematikan"
+}, {
+  "no": 62,
+  "latine": "Al Hayyu",
+  "arab": "الحي",
+  "arti": "Yang Maha Hlatineup"
+}, {
+  "no": 63,
+  "latine": "Al Qayyuum",
+  "arab": "القيوم",
+  "arti": "Yang Maha Mandiri"
+}, {
+  "no": 64,
+  "latine": "Al Waajlatine",
+  "arab": "الواجد",
+  "arti": "Yang Maha Penemu"
+}, {
+  "no": 65,
+  "latine": "Al Maajlatine",
+  "arab": "الماجد",
+  "arti": "Yang Maha Mulia"
+}, {
+  "no": 66,
+  "latine": "Al Wahilatine",
+  "arab": "الواحد",
+  "arti": "Yang Maha Tunggal"
+}, {
+  "no": 67,
+  "latine": "Al Ahad",
+  "arab": "الاحد",
+  "arti": "Yang Maha Esa"
+}, {
+  "no": 68,
+  "latine": "As Shamad",
+  "arab": "الصمد",
+  "arti": "Yang Maha Dibutuhkan, Tempat Meminta"
+}, {
+  "no": 69,
+  "latine": "Al Qaadir",
+  "arab": "القادر",
+  "arti": "Yang Maha Menentukan, Maha Menyeimbangkan"
+}, {
+  "no": 70,
+  "latine": "Al Muqtadir",
+  "arab": "المقتدر",
+  "arti": "Yang Maha Berkuasa"
+}, {
+  "no": 71,
+  "latine": "Al Muqaddim",
+  "arab": "المقدم",
+  "arti": "Yang Maha Mendahulukan"
+}, {
+  "no": 72,
+  "latine": "Al Mu 'akkhir",
+  "arab": "المؤخر",
+  "arti": "Yang Maha Mengakhirkan"
+}, {
+  "no": 73,
+  "latine": "Al Awwal",
+  "arab": "الأول",
+  "arti": "Yang Maha Awal"
+}, {
+  "no": 74,
+  "latine": "Al Aakhir",
+  "arab": "الأخر",
+  "arti": "Yang Maha Akhir"
+}, {
+  "no": 75,
+  "latine": "Az Zhaahir",
+  "arab": "الظاهر",
+  "arti": "Yang Maha Nyata"
+}, {
+  "no": 76,
+  "latine": "Al Baathin",
+  "arab": "الباطن",
+  "arti": "Yang Maha Ghaib"
+}, {
+  "no": 77,
+  "latine": "Al Waali",
+  "arab": "الوالي",
+  "arti": "Yang Maha Memerintah"
+}, {
+  "no": 78,
+  "latine": "Al Muta'aalii",
+  "arab": "المتعالي",
+  "arti": "Yang Maha Tinggi"
+}, {
+  "no": 79,
+  "latine": "Al Barru",
+  "arab": "البر",
+  "arti": "Yang Maha Penderma(Maha Pemberi Kebajikan)"
+}, {
+  "no": 80,
+  "latine": "At Tawwaab",
+  "arab": "التواب",
+  "arti": "Yang Maha Penerima Tobat"
+}, {
+  "no": 81,
+  "latine": "Al Muntaqim",
+  "arab": "المنتقم",
+  "arti": "Yang Maha Pemberi Balasan"
+}, {
+  "no": 82,
+  "latine": "Al Afuww",
+  "arab": "العفو",
+  "arti": "Yang Maha Pemaaf"
+}, {
+  "no": 83,
+  "latine": "Ar Ra 'uuf",
+  "arab": "الرؤوف",
+  "arti": "Yang Maha Pengasuh"
+}, {
+  "no": 84,
+  "latine": "Malikul Mulk",
+  "arab": "مالك الملك",
+  "arti": "Yang Maha Penguasa Kerajaan(Semesta)"
+}, {
+  "no": 85,
+  "latine": "Dzul Jalaali Wal Ikraam",
+  "arab": "ذو الجلال و الإكرام",
+  "arti": "Yang Maha Pemilik Kebesaran dan Kemuliaan"
+}, {
+  "no": 86,
+  "latine": "Al Muqsith",
+  "arab": "المقسط",
+  "arti": "Yang Maha Pemberi Keadilan"
+}, {
+  "no": 87,
+  "latine": "Al Jamii'",
+  "arab": "الجامع",
+  "arti": "Yang Maha Mengumpulkan"
+}, {
+  "no": 88,
+  "latine": "Al Ghaniyy",
+  "arab": "الغنى",
+  "arti": "Yang Maha Kaya"
+}, {
+  "no": 89,
+  "latine": "Al Mughnii",
+  "arab": "المغنى",
+  "arti": "Yang Maha Pemberi Kekayaan"
+}, {
+  "no": 90,
+  "latine": "Al Maani",
+  "arab": "المانع",
+  "arti": "Yang Maha Mencegah"
+}, {
+  "no": 91,
+  "latine": "Ad Dhaar",
+  "arab": "الضار",
+  "arti": "Yang Maha Penimpa Kemudharatan"
+}, {
+  "no": 92,
+  "latine": "An Nafii '",
+  "arab": "النافع",
+  "arti": "Yang Maha Memberi Manfaat"
+}, {
+  "no": 93,
+  "latine": "An Nuur",
+  "arab": "النور",
+  "arti": "Yang Maha Bercahaya(Menerangi, Memberi Cahaya)"
+}, {
+  "no": 94,
+  "latine": "Al Haadii",
+  "arab": "الهادئ",
+  "arti": "Yang Maha Pemberi Petunjuk"
+}, {
+  "no": 95,
+  "latine": "Al Badii'",
+  "arab": "البديع",
+  "arti": "Yang Maha Pencipta Yang Tiada Bandingannya"
+}, {
+  "no": 96,
+  "latine": "Al Baaqii",
+  "arab": "الباقي",
+  "arti": "Yang Maha Kekal"
+}, {
+  "no": 97,
+  "latine": "Al Waarits",
+  "arab": "الوارث",
+  "arti": "Yang Maha Pewaris"
+}, {
+  "no": 98,
+  "latine": "Ar Rasyilatine",
+  "arab": "الرشيد",
+  "arti": "Yang Maha Pandai"
+}, {
+  "no": 99,
+  "latine": "As Shabuur",
+  "arab": "الصبور",
+  "arti": "Yang Maha Sabar"
+}]

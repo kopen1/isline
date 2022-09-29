@@ -1,0 +1,34 @@
+<img src="img/sett.svg" class="sett " data-bs-toggle="offcanvas" data-bs-target="#offcanvasResponsive" >
+
+
+
+<div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasResponsive" aria-labelledby="offcanvasResponsiveLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasResponsiveLabel">Settings</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#offcanvasResponsive" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body bg-light">
+    
+<div class="w-auto fs-6 id p-1 text-center"> 
+<select id="listsurah" class="w-auto text-center" onchange='selectsurah()' >
+<option selected>List Surah</option>
+<? menu[2].forEach(x => { 
+?>
+<option value="<?- x.no_surah ?>" ><?- x.id ?></option> 
+<? })  ?>
+</select>
+<span id="listayah" class="row "></span>
+</div>
+ <div class="col id bg-info w-auto p-1">
+<div class="form-check form-switch fluid-form w-auto rounded-1">
+          <label class="form-check-label" for="night">mode</label>
+          <input id="night" class="form-check-input" type="checkbox" role="switch" >
+          </div>
+</div>
+  </div></div>
+
+
+
+ 
+
+

@@ -1,0 +1,98 @@
+<? 
+   surat = x.ar;
+   id = x.id;
+   jum = x.jum_ayat;
+   arti_surat = x.arti;
+   golongan = x.golongan;
+   nosurat = x.no_surah;
+   taf = x.tafsir_surah;
+   as = x.data;
+   biss = "بِسْمِ اللَّهِ الرَّحَْمَٰنِ الرَّحِيمِ "; 
+  if(nosurat == 1 || nosurat == 9){biss = "";}
+  ?>
+  <div class="container ayat">
+  <div class="row p-1 text-bg-light">
+  <span class="arab fs-1 text-center"> <?- surat ?></span>
+  <span class="fs-4 id text-center"> <?- arti_surat ?>| <?- x.jum_ayat ?> ayat | <?- golongan ?></span>
+  <hr>
+  <p class="fs-6 text-left font-taf"> <?- x.tafsir_surah ?></p>
+  <p class="text-center arab fs-1 mb-3"><?- biss ?></p><hr>
+  </div>
+   <input type="hidden" id="jumayat" value="<?- jum ?>" />
+    <? 
+    as.forEach(a => { 
+    nom = a.no;
+    arab = a.arab;
+    translete = a.id;
+    info = `${nosurat}:${nom}`;
+    audio = a.audio;
+    page = a.page;
+    tafsir = a.tafsir;
+    // Tafsir
+    wajiz = tafsir.wajiz;
+    tahlili = tafsir.tahlili;
+    symbol = "۝"
+    ?>
+    
+    
+    <div id="ayat" class="row p-1">
+    
+   
+    
+  <div style="width:auto; height:auto;" class="btn btn-sm border-1 rounded-2 border-secondary text-bg-light">
+  <span class="id fs-6"> <?- info -?> </span>
+  <span class="id fs-6"><? tafsire() ?></span>
+  <span class="shadowi">
+ <img width="30px" onclick="audio(<?-nom?>)" id="pl" src="img/play.svg"></span>
+  </div>
+ 
+  
+
+    
+    
+    <p class="arab fs-1">
+    <span id="<?- nom ?>" class="arab"><?- arab + menu[4](nom) ?></span>
+    </p>
+    
+    <div class="tr d-nonei" >
+    <p class="id fs-5"><?- translete ?></p>
+   <audio class="playaudio" >
+   <source src="#" type="audio/mpeg"></audio>
+   
+   </div>
+   <hr>
+     
+
+   </div>
+    <? }) ?>
+   </div>
+   
+   <? function tafsire(){ ?>
+     <!-- TAFSIR -->
+<span class="shadowi border-1 border-secondary" data-bs-toggle="modal" data-bs-target="#n<?-nom?>">
+Tafsir <img src="img/book.svg" alt="<?-info?>" >
+</span>
+<div class="modal fade" id="n<?-nom?>" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">TAFSIR Q.S <?- info ?></h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+
+    <p class="arab fs-1"><?- arab ?></p><hr>
+    <p class="id fs-6">
+      » Tafsir Wajiz «<?- "</br>"+wajiz ?></p><hr>
+    <span class="id fs-6">
+      » Tafsir Tahlili « <br> <?- tahlili ?></span>
+    
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+     <!-- TAFSIR -->
+   <? } ?>

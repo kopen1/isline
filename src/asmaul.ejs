@@ -1,0 +1,25 @@
+
+
+<div class="container">
+<div class="row">
+<? 
+h = menu[5]();
+for(e=0;e<h.length;e++){
+i = h[e];
+
+?>
+
+<div class="col-sm-6 mb-1 text-center p-2 text-bg-light shadowi rounded-5">
+    <p class="arab fs-1">
+      <?- i.arab + menu[4](i.no) ?>
+    </p>
+    <p class="id fs-4">
+      <?- i.latine ?>
+    </p>
+    <p class="id fs-4">
+      <?- i.arti ?>
+    </p>
+  </div>
+<? } ?>
+</div>
+</div>

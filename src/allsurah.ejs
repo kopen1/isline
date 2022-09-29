@@ -1,0 +1,14 @@
+
+ <div class="container">
+ <div class="row">
+ <!--
+[title,description,surah,ayah,noarab,jumayah,id]
+ -->
+<? menu[2].forEach(xx => { ?>
+<p id="ayat" onclick="sura(<?- xx.no_surah ?>)" class="shadowi bdn pointer text-bg-body p-3">
+<span  class="id fs-4"><?-xx.id + "(" + xx.jum_ayat?>)</span>
+<span class="fs-1 arab"><?- menu[4](xx.no_surah)+" "+xx.ar ?></span>
+</p>
+  <? }); ?>
+    </div>
+    </div>
