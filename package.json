@@ -2,9 +2,9 @@
   "name": "quran",
   "version": "1.0.0",
   "description": "Qur'an Online",
-  "main": "index.js",
+  "private": true,
   "scripts": {
-    "start": "node index.js",
+    "start": "node index.js"
   },
   "keywords": ["quran","islam online","quran online"],
   "author": "irkop",
