@@ -1,8 +1,9 @@
-const fs = require("fs");
-const ejs = require('ejs');
-const express = require('express'); 
+const cheerio = require("cheerio");
+const fs = require('fs');
+const ejs = require ('ejs');
+const express = require ('express'); 
 const app = express();
-const port = prosess.env.PORT || 3000;
+const port = process.env.PORT || 3000;
 
 app.set("view engine","ejs"),
 app.set("views","src"),
@@ -75,5 +76,5 @@ let replace = ['٠','١','٢','٣','٤','٥','٦','٧','٨','٩'];
 
 
 app.listen(port, () =>{
-  console.log("Server running..");
+  console.log("Server running.." + port);
 });

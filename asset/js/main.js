@@ -58,10 +58,9 @@ const n = document.getElementById('night');
 let box = document.querySelector('.box');
 const cn = document.querySelectorAll('.cnt');
 let base = window.location.pathname;
-
-
 let bb = base.split("/")[1];
 let bbb = base.split("/");
+
 
 if(bb == "home" || bb == "/" || bb == ""){
 const flip = document.querySelector('.logo');
@@ -71,9 +70,7 @@ flip.classList.toggle("logob");
 setInterval(function(){cin()},10000);
 }
 
-
-
-// Mode Night
+// Mode 
 n.addEventListener("click",function(){
   document.body.classList.toggle("night");
   const cn = document.querySelectorAll('.cnt');
@@ -105,7 +102,6 @@ nav.classList.remove('bg-light');
 nav.classList.remove('fixed-top');
 }
   });
-
 if(bbb[1] == "surah"){
 c = document.getElementById("jumayat").value;
 let oo = "";
