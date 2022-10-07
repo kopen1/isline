@@ -43,7 +43,7 @@
   <span class="id fs-6"> <?- info -?> </span>
   <span class="id fs-6"><? tafsire() ?></span>
   <span class="shadowi">
- <img width="30px" onclick="audio(<?-nom?>)" id="pl" src="img/play.svg"></span>
+ <img width="30px" alt="audio" onclick="audio(<?-nom?>)" id="pl" src="img/play.svg"></span>
   </div>
  
   
@@ -54,7 +54,7 @@
     <span id="<?- nom ?>" class="arab"><?- arab + menu[4](nom) ?></span>
     </p>
     
-    <div class="tr d-nonei" >
+    <div class="tr" >
     <p class="id fs-5"><?- translete ?></p>
    <audio class="playaudio" >
    <source src="#" type="audio/mpeg"></audio>
@@ -76,7 +76,7 @@ Tafsir <img src="img/book.svg" alt="<?-info?>" >
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="staticBackdropLabel">TAFSIR Q.S <?- info ?></h5>
+<h2 class="modal-title" >TAFSIR Q.S <?-info ?></h2>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">

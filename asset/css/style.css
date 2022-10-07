@@ -19,27 +19,25 @@ font-size: 1.1em;
 direction: rtl;
 }
 .night {
-background: #4B79A1;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to top, #283E51, #0A2342);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to top, #283E51, #0A2342); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #0A2342;  
+  background: -webkit-linear-gradient(to top, #283E51, #0A2342);
+  background: linear-gradient(to top,#0A2342, #0A2342);
   background: -olinear-gradient(to top, #283E51, #0A2342); 
   color: black;
 }
-
 
 body{
   position: relative;
   height: auto;
   width: auto;
-  color: white;
   }
-.ml {
-  background-color:#5f777f;}
 
 .bg-gr {
-background: linear-gradient(90deg, rgba(34,193,195,1) 0%, rgba(240,45,253,1) 100%);
+background: #80808027;
+color: black;
 }
-
+/*linear-gradient(90deg, rgba(34,193,195,1) 0%, rgba(240,45,253,1) 100%);
+*/
  .cnt{
 position: relative;
 overflow: hidden;
@@ -60,15 +58,16 @@ font-family: "viga";
   text-align: center;}
 .hover {
 color: white;
-box-shadow: 0.1em 0.1em 0.1em 0.1em lightgray;
+box-shadow: 0.1em 0.1em lightgray;
+transition-duration: 0.4s;
+  
 }
-.hover:active {
-box-shadow: 0.4em 0.6em #5e5e5e;
-transform: translateY(-0.10em);
+.hover:hover {
+box-shadow: 2px 5px 1px #5e5e5e;
 }
 
-.img:active{transform: translateY(10px);}
-.a {text-decoration: none;color:white;font-family:noto;}
+.a {text-decoration: none;color:black;font-family:viga;}
+.a:hover{color:green;}
 .lf {
 position: relative;
 animation-name: lf;
@@ -82,12 +81,12 @@ animation-duration: 2s;
 .tp {
 position: relative;
 animation-name: tp;
-animation-duration: 2s;
+animation-duration: 0.2s;
 }
 .bt {
 position: relative;
 animation-name: bt;
-animation-duration: 2s;
+animation-duration: 0.2s;
 }
 @keyframes lf{
   from {left: -100%;}
@@ -98,11 +97,11 @@ animation-duration: 2s;
   to {right: 0;}
 }
 @keyframes tp{
-  from{top: 500px;}
+  from{top: 10px;}
   to {top: 0;}
 }
 @keyframes bt{
-  from {bottom: 500px;}
+  from {top: 10px;}
   to {bottom: 0;}
 }
 
@@ -131,7 +130,7 @@ animation-duration: 2s;
 
 
 .ptr {
-    position: relative;
+    position: absolute;
     overflow: hidden;
     width: 100%;
     height: 100%;
@@ -156,14 +155,6 @@ animation-duration: 2s;
      0% {transform: rotate(0deg);}                     
      100% {transform: rotate(-360deg);}
 }
-.cl {
-  color: white;
-  animation: cl 2s linear infinite;
-}
-@keyframes cl{
-  from {color: rgb(55,255,216);}
-  to {color: rgb(255,56,174);}
-}
 
 .box {
   width: auto;
@@ -183,8 +174,7 @@ animation-duration: 2s;
    color: black;
    background: rgba(1,1,1,0.102);
    border-radius: 10px 10px;
-   margin-bottom: -0.2em;
-   box-shadow: 10px 14px 28px rgba(0, 0, 0, 0.25), 20px 20px 20px rgba(0, 0, 0, 0.22);
+   box-shadow: 4px 4px 2px rgba(0, 0, 0, 0.25), 8px 10px 10px rgba(0, 0, 0, 0.22);
   }
   .pointer{
   cursor: pointer;
@@ -194,21 +184,6 @@ animation-duration: 2s;
    display: flex;
    justify-content: space-between;
   }
-
-
-@media screen and (min-width: 720px) {
-.ptr::after {
-    margin: auto;
-    content: '';
-    width: 50%;
-    top:-20%;left:-5%;right:-10%;bottom:-20%;
-    position: absolute;
-    background: linear-gradient(transparent,transparent,transparent,cyan);
-    animation: an 3s infinite linear;
-}
-}
-
-
 
 
 
@@ -312,9 +287,48 @@ animation-duration: 2s;
 
 .sett {
   z-index:2;
-  width:10%;
+  display: flex;
+  justify-items: center;
   position: fixed;
   top:50%;
+  left: -6%;
+  cursor: pointer;
   animation: sett 3s infinite linear;
 }
+.sett:hover {left:0;}
 @keyframes sett{100%{transform: rotate(360deg);}}
+
+.settings {
+  position: absolute;
+  width: 50%;
+  height: 200px;
+  top:40%;
+  left:200px;
+  background: cyan;
+  color: black;
+  padding: 10px;
+}
+
+@keyframes bb{
+  from {left:0;}
+  to {left:-200px;}
+}
+
+
+
+@media screen and (min-width: 720px) {
+.ptr::after {
+    margin: auto;
+    content: '';
+    width: 50%;
+    top:-20%;left:-5%;right:-10%;bottom:-20%;
+    position: absolute;
+    background: linear-gradient(transparent,transparent,transparent,cyan);
+    animation: an 3s infinite linear;
+}
+
+.sett {left: -2%;
+  
+}
+}
+

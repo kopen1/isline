@@ -1,35 +1,46 @@
+'use strict'
 const cheerio = require("cheerio");
 const fs = require('fs');
 const ejs = require ('ejs');
 const express = require ('express'); 
+const compression = require('compression'); 
 const app = express();
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 8080;
+var options = {
+  dotfiles: 'ignore',
+  etag: true,
+  index : false,
+  maxAge: 31536000,
+  redirect: false,
+  setHeaders: function (res, path, stat) {
+    res.set('x-timestamp', Date.now()),
+    res.set('power-by', "Qiro'ati, Islamic Online"),
+    res.set('http-origin', "https://irkop.eu.org"),
+    res.set('server', "HEROKU & GITHUB"),
+    res.set('Cache-Control','max-age=31536000'),
+    res.set('X-Powered-By', 'Irkop')
+  }}
+
+const hd = res => res.setHeader('Cache-Control','max-age=31536000');
 
 app.set("view engine","ejs"),
 app.set("views","src"),
-app.use(express.static('public')),
-app.use("/css",express.static('asset/css')),
-app.use("/img",express.static('asset/img')),
-app.use("/js",express.static('asset/js')),
-app.use("/surah/css",express.static('asset/css')),
-app.use("/surah/img",express.static('asset/img')),
-app.use("/surah/js",express.static('asset/js')),
+app.use(express.static('asset/',options)),
+app.use("/surah/",express.static('asset/',options)),
+app.use(compression());
+
 
 ejs.delimiter = "?";
 
 const description = `Project Islami Berbasis Online Tanpa Aplikasi Dan Tanpa Iklan,
 Membaca <b>Qur'an,Tahlil Dan Do'a</b> Lebih Simpel.<br>
-project ini masih beta,Jadi Harap Di maklumi bila mana masih ada bug.
 `;
 const title = "ɪꜱʟᴀᴍɪᴄ ᴏɴʟɪɴᴇ";
 
 var data = fs.readFileSync('src/data/listsurah.json',`utf8`);
 const surah = JSON.parse(data);
 
-const ayah = id =>{
-var data = fs.readFileSync(`src/data/surah/${id}.json`,`utf8`);
-return JSON.parse(data);
-}
+let ayah = "irkopkopen";
 const asmaul =()=>{
 var data = fs.readFileSync(`src/data/asmaul_husna.json`,`utf8`);
 return JSON.parse(data);
@@ -43,26 +54,35 @@ return JSON.parse(data);
 var id = "kopen";
 var menu = [title,description,surah,ayah,noarab,asmaul,tahlil];
 
-
 app.get('/', function (req, res){
+hd(res);
 res.render("layout",{layout:'home',menu})});
 app.get('/allsurah', function (req, res){
+hd(res);
 res.render("layout",{layout:'allsurah',menu});
 })
-app.get('/surah/:id', function (req, res){
-var x = ayah(req.params.id);
+app.get('/surah/:id',function (req, res){
+hd(res);
+var i = req.params.id;
+var data = fs.readFileSync(`src/data/surah/${i}.json`,`utf8`);
+var x = JSON.parse(data);
 res.render("layout",{layout:'surah',menu,x});
 })
 app.get('/asmaul_husna', function (req, res){
+hd(res);
 res.render("layout",{layout:'asmaul',menu});
 })
 app.get('/tahlil', function (req, res){
+hd(res);
 res.render("layout",{layout:'tahlil',menu});
 })
+app.get('/source', function (req, res){
+res.render("layout",{layout:'source',menu});
+})
 app.use('/', function (req, res){
+hd(res);
 res.render("layout",{layout:'home',menu})
 });
-
 
 
 function noarab(str){
@@ -75,6 +95,7 @@ let replace = ['٠','١','٢','٣','٤','٥','٦','٧','٨','٩'];
 }
 
 
-app.listen(port, () =>{
+app.listen(port, (err) =>{
+  if(err) console.log(err)
   console.log("Server running.." + port);
 });
